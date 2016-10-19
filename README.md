@@ -23,3 +23,8 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 - analiza pod kątem artist latitude/longitude - czy artyści podobni gatunkowo znajdują się częściej blisko siebie czy dalej? być może jest to specyficzne tylko dla niektórych gatunków? czy można wyróżnić "Mekki" dla pewnych gatunków?
 - title vs hotttnesss - czy ludziom bardziej podobają się piosenki o prostych tytułach? (być może również o prostym rytmie/tonacji?) - pewnie tak, więc raczej mało ciekawe
 - przewidywanie popularności piosenki na podstawie jej podobieństwa do innego popularnego utworu
+
+##### Notatki lab 2
+
+- Schemat bazy + sposób na ściągniecie danych z N ostatnich lat, lub jednego artysty
+- Zarejestrować / zapisać na projekt w zeusie
