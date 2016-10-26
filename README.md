@@ -32,6 +32,7 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 - Zarejestrować / zapisać na projekt w zeusie
 
 ## Lab 2
+- Ściąganie z ostatnich lat - nie udało się znaleźć - trzeba zciągnąć całość. Ew użyć [obrazu z AWS](https://aws.amazon.com/datasets/million-song-dataset/)
 - Schemat bazy: ![schema](db-schema.png)
 - problemy z stworzeniem projektu:
  - https://drive.google.com/file/d/0BzT89FIsqfCWbFEyNTZlbGlydGs/view?usp=sharing
