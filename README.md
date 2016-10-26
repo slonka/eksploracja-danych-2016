@@ -2,6 +2,8 @@
 
 ## Temat: Analiza danych – Million song dataset - http://labrosa.ee.columbia.edu/millionsong/
 
+## Lab 1
+
 ### Dostępne dane
 
 Lista pól: http://labrosa.ee.columbia.edu/millionsong/pages/field-list
@@ -28,3 +30,9 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 
 - Schemat bazy + sposób na ściągniecie danych z N ostatnich lat, lub jednego artysty
 - Zarejestrować / zapisać na projekt w zeusie
+
+## Lab 2
+- Schemat bazy: ![schema](db-schema.png)
+- problemy z stworzeniem projektu:
+ - https://drive.google.com/file/d/0BzT89FIsqfCWbFEyNTZlbGlydGs/view?usp=sharing
+ - https://drive.google.com/file/d/0BzT89FIsqfCWMTFELXpLLTVWcTQ/view?usp=sharing
