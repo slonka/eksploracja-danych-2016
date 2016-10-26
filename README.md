@@ -37,3 +37,7 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 - problemy z stworzeniem projektu:
  - https://drive.google.com/file/d/0BzT89FIsqfCWbFEyNTZlbGlydGs/view?usp=sharing
  - https://drive.google.com/file/d/0BzT89FIsqfCWMTFELXpLLTVWcTQ/view?usp=sharing
+
+##### Notatki lab3
+
+- przerzucić do trac'a
