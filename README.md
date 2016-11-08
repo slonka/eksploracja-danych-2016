@@ -41,3 +41,8 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 ##### Notatki lab3
 
 - przerzucić do trac'a
+
+## Lab 3
+
+- Sample wrzucony do neo4j ![neo4j](neo4j.png)
+- niestety tylko lokalnie
