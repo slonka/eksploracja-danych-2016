@@ -46,3 +46,4 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 
 - Sample wrzucony do neo4j ![neo4j](neo4j.png)
 - niestety tylko lokalnie
+- Playlisty z API spotify https://developer.spotify.com/web-api/get-list-users-playlists/
