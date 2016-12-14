@@ -63,3 +63,7 @@ uciążliwe
 - 30Music zawiera 5,5 miliona piosenek, MSD 1 milion, a AoTM - 200 tysięcy. Z tego względu najrozsądniejsze wydaje się użycie danych AoTM i niewykorzystywanie reszty piosenek z MSD
 
 Po wielu problemach udało się ściągnąć cały dataset MSD. W tym momencie trwa uruchamianie skryptów do sparka.
+
+Następne kroki:
+- załadowanie całości danych do Neo4J
+- porównanie bazy piosenek z MSD z AoTM 
