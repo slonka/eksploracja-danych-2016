@@ -50,3 +50,16 @@ utwory lub wykonawcy tworzą podsieci, a także jako podstawa systemu rekomendac
 - Playlisty z API spotify https://developer.spotify.com/web-api/get-list-users-playlists/
 - Playlisty z youtube https://www.google.pl/?gfe_rd=cr&ei=dmspWJLaEOWv8wfSpaeIDg#q=site:https:%2F%2Fwww.youtube.com%2Fplaylist+music 
 - Playlisty http://www.iiia.csic.es/~claudio/affinity/
+
+## Lab 4
+
+Poprzednie playlisty odrzucone z różnych powodów. Do rozważenia następujące dwie:
+- AoTM Playlist Dataset: http://labrosa.ee.columbia.edu/projects/musicsim/aotm.html
+- 30Music Dataset: http://ceur-ws.org/Vol-1441/recsys2015_poster13.pdf
+
+Wybraliśmy playlistę AoTM z następujących powodów:
+- 30Music zawiera dużo literówek i błędów, przez co sprawienie, by współpracowała z MSD byłoby
+uciążliwe
+- 30Music zawiera 5,5 miliona piosenek, MSD 1 milion, a AoTM - 200 tysięcy. Z tego względu najrozsądniejsze wydaje się użycie danych AoTM i niewykorzystywanie reszty piosenek z MSD
+
+Po wielu problemach udało się ściągnąć cały dataset MSD. W tym momencie trwa uruchamianie skryptów do sparka.
