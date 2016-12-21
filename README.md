@@ -70,8 +70,9 @@ Następne kroki:
 
 ## Lab 5
 
-Po wielu próbach zdecydowaliśmy się załadować bazę na lokalnym stanowisku - powodem było bardzo dużo problemów z Zeusem, co udowadnia długa korespondencja. 
+Po wielu próbach zdecydowaliśmy się załadować bazę na lokalnym stanowisku - powodem było bardzo dużo problemów z Zeusem, co udowadnia długa korespondencja. Stworzyliśmy też skrypt, który generuje postać piosenek z playlist zdatną do porównania z MSD. W AoTM są literówki w nazwach artystów - trzeba będzie użyć pewnego rodzaju string matchingu.
 
 Następne kroki:
-
-
+ - skończyć procesowanie datasetu MSD na lokalnym komputerze
+ - napisać algorytm
+ - napisać dokumentację
