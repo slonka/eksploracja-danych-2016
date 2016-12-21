@@ -67,3 +67,11 @@ Po wielu problemach udało się ściągnąć cały dataset MSD. W tym momencie t
 Następne kroki:
 - załadowanie całości danych do Neo4J
 - porównanie bazy piosenek z MSD z AoTM 
+
+## Lab 5
+
+Po wielu próbach zdecydowaliśmy się załadować bazę na lokalnym stanowisku - powodem było bardzo dużo problemów z Zeusem, co udowadnia długa korespondencja. 
+
+Następne kroki:
+
+
