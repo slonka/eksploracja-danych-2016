@@ -93,4 +93,9 @@ Całość można zobaczyć w pliku `rec.py`
 
 Biorąc pod uwagę ogrom zbioru oraz różnorodność gustów i sposób w jaki użytkownicy wybierają swoje playlisty zadowalającym wynikiem jest dokładność silnika na poziomie kilku procent.
 
-Wynik który otrzymaliśmy to: ...
+Wynik który otrzymaliśmy to: **0,12104283%**.
+
+Jest on trochę niższy od oczekiwanego, wynika to głównie z faktu iż rekomendowanie konkretnych piosenek jest bardzo trudne.
+Wpływ może mieć także występowanie literówek i brak ujednolicenia autorów w zbiorach (przykładowo jeśli dwóch artystów wykonywało jeden utwór może być on przedstawiony na dwa różne sposoby w zbiorach danych).
+
+Niemniej jednak, demo aplikacji webowej które przygotowaliśmy prezentuje conajmniej zadowalający poziom rekomendacji, wyświetlając piosenki które odpowiadały gustom deweloperów.
