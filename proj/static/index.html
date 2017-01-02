@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rekomendacje</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <style>
+    .entry:not(:first-of-type)
+    {
+        margin-top: 10px;
+    }
+
+    .glyphicon
+    {
+        font-size: 12px;
+    }
+  </style>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+
+<div class="container">
+  <h4>Podaj nazwy artystów i piosenek do rekomendacji: </h4>
+  <div class="control-group" id="fields">
+    <div class="controls">
+      <form role="form" autocomplete="off" method="post" action="">
+        <div class="row">
+          <div class="voca">
+            <div class="col-md-3">
+              <input class="form-control" name="songs[]" placeholder="Artist name" type="text">
+            </div>
+            <div class="col-md-3">
+              <input class="form-control" name="songs[]" placeholder="Song name" type="text">
+            </div>
+            <button type="button" class="btn btn-success btn-add">
+              <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Dodaj
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <br>
+      <button class="btn btn-info send-form">Wyślij</button>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="container">
+  <h4>Rekomendacje:</h4>
+  <table class="table recommendations">
+    <thead>
+      <tr>
+        <th>Artysta</th>
+        <th>Piosenka</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function()
+{
+    $(document).on('click', '.btn-add', function(e)
+    {
+        e.preventDefault();
+
+        var controlForm = $('.controls form:first'),
+            currentEntry = $(this).parents('.voca:first'),
+            clone = $(currentEntry.clone()).addClass('row');
+            newEntry = clone.appendTo(controlForm);
+
+        newEntry.find('input').val('');
+        controlForm.find('.btn-add:not(:last)')
+            .removeClass('btn-default').addClass('btn-danger')
+            .removeClass('btn-add').addClass('btn-remove')
+
+            .html('<span class="glyphicon glyphicon-minus" aria-hidden="true"></span> Remove   ');
+    }).on('click', '.btn-remove', function(e)
+    {
+		$(this).parents('.voca:first').remove();
+
+		e.preventDefault();
+		return false;
+	});
+
+	$('.send-form').on('click', function(e) {
+	  var form = $('form');
+	  var songs = form.serializeArray();
+	  var str = [];
+	  for(var i = 0; i<songs.length - 1; i+=2) {
+	    str.push(encodeURIComponent(songs[i].value) + '=' + encodeURIComponent(songs[i+1].value));
+	  }
+	  var urlString = str.join('&');
+
+	  $.ajax({
+        method: 'POST',
+        url: 'http://localhost:5000/',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        data: urlString
+    }).success(function (data) {
+      console.log(data);
+      var tBody = $('tbody');
+      tBody.empty();
+      data.recommendations.forEach(rec => {
+        tBody.append('<tr><td>'+ rec[0] + '</td><td>' +rec[1] +'</td></tr>');
+      });
+    });
+
+	  e.preventDefault();
+	  return false;
+	});
+});
+
+
+</script>
+</body>
+</html>
