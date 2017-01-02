@@ -1,0 +1,400 @@
+112#41538
+311#43264
+3 doors down#16100
+3lw#44837
+aaliyah#47999
+abba#27912
+paula abdul#25861
+ac dc#34621
+ace of base#28311
+bryan adams#18071
+aerosmith#41935
+christina aguilera#2085
+ah ha#26272
+air supply#39016
+alice in chains#32753
+all saints#39022
+alphaville#1004
+jessica andrews#38476
+marc anthony#1894
+apple fiona#45732
+aqua#40888
+rick astley#42340
+backstreet boys#12580
+bad brains#4802
+bad company#28346
+bangles#1144
+barenaked ladies#3929
+basement jaxx#46546
+bbmak#6402
+beach boys#46404
+beastie boys#30218
+beatles#2890
+beck#9503
+bee gees#42433
+lou bega#30391
+pat benatar#28189
+ben folds five#18049
+big star#38119
+black sabbath#37651
+blackstreet#27773
+blessid union of souls#38297
+blind melon#33097
+blink 182#12543
+blondie#25080
+bloodhound gang#7040
+blood sweat tears#15730
+blur#15623
+bon jovi#34032
+boston#39629
+david bowie#21257
+toni braxton#28757
+garth brooks#43378
+busta rhymes#45981
+cake#33607
+cardigans#39143
+mariah carey#4192
+belinda carlisle#21124
+aaron carter#5789
+deana carter#14994
+nick cave and bad seeds#25330
+tracy chapman#30021
+cheap trick#20911
+chemical brothers#23798
+cher#39402
+kenny chesney#2491
+chic#39486
+chicago#3174
+chumbawamba#15236
+eric clapton#740
+clash#12097
+coal chamber#36755
+joe cocker#37758
+coldplay#11986
+collective soul#47630
+phil collins#42631
+coolio#11447
+alice cooper#11102
+corrs#11506
+elvis costello#13717
+counting crows#16021
+cranberries#4702
+cream#33860
+creedence clearwater revival#22004
+christopher cross#1879
+crowded house#26074
+sheryl crow#9384
+culture beat#33622
+culture club#18853
+cure#2324
+cypress hill#40053
+billy ray cyrus#23813
+daft punk#35485
+d angelo#471
+craig david#34519
+miles davis#21876
+alice deejay#32719
+deep purple#23111
+def leppard#16758
+deftones#33491
+john denver#34591
+depeche mode#21218
+neil diamond#31829
+dido#19005
+ani difranco#4858
+celine dion#8481
+dire straits#18054
+disturbed#28562
+dixie chicks#25040
+dmx#37061
+doors#41007
+nick drake#714
+dr dre#11307
+duran duran#7443
+dylan bob#40648
+eiffel 65#27531
+missy elliott#44994
+enigma#35678
+en vogue#44319
+enya#3081
+erasure#22993
+melissa etheridge#15536
+eurythmics#41286
+evan and jaron#16321
+everclear#38279
+everlast#24077
+everly brothers#40228
+everything but girl#12120
+extreme#5926
+lara fabian#4983
+faith no more#12116
+fastball#15933
+fatboy slim#39085
+filter#8165
+fine young cannibals#31765
+finger eleven#21159
+fleetwood mac#36930
+foo fighters#24829
+foreigner#13480
+aretha franklin#8231
+fuel#35432
+fugees#1096
+nelly furtado#40190
+gabrielle#36209
+gabriel peter#21506
+garbage#45275
+marvin gaye#40151
+genesis#27764
+get up kids#35129
+kenny g#46416
+goldfinger#40984
+goo goo dolls#15218
+gorillaz#37081
+al green#47538
+green day#24769
+pj harvey#47117
+wade hayes#20485
+heart#28854
+jimi hendrix experience#5293
+dru hill#7586
+faith hill#28585
+lauryn hill#13081
+house of pain#16715
+whitney houston#597
+human league#4893
+ice cube#58
+billy idol#13191
+enrique iglesias#28960
+natalie imbruglia#13827
+incubus#26897
+inxs#15374
+iron maiden#34394
+chris isaak#8048
+alan jackson#39397
+janet jackson#16324
+michael jackson#47581
+jamiroquai#40183
+ja rule#13469
+wyclef jean#25767
+joe#42035
+joel billy#935
+elton john#46960
+olivia newton john#21457
+janis joplin#21595
+montell jordan#28865
+juvenile#23761
+kansas#4557
+kc and sunshine band#23504
+keith toby#13607
+kid rock#32645
+kiss#17425
+mark knopfler#20931
+korn#22267
+lenny kravitz#33001
+la bouche#17434
+cyndi lauper#44700
+led zeppelin#12765
+john lennon#7008
+annie lennox#4099
+les rythmes digitales#47956
+huey lewis and news#38034
+lfo#43536
+lifehouse#11215
+lil bow wow#7389
+limp bizkit#27838
+linkin park#18711
+live#45015
+ll cool j#32967
+kenny loggins#36576
+lucy pearl#27221
+ludacris#38870
+luniz#24384
+lynyrd skynyrd#10766
+madison avenue#26508
+madonna#28904
+marilyn manson#13349
+bob marley and wailers#28237
+ricky martin#31221
+richard marx#24617
+dave matthews band#39929
+edwin mccain#1794
+tim mcgraw#25228
+sarah mclachlan#44103
+don mclean#31189
+me first and gimme gimmes#19277
+melanie c#12025
+men at work#19557
+metallica#12668
+george michael#37612
+bette midler#18625
+steve miller band#29548
+milli vanilli#12754
+moby#28323
+moody blues#7939
+morcheeba#463
+debelah morgan#15630
+alanis morissette#48029
+van morrison#42581
+mr big#27682
+mudvayne#27371
+samantha mumba#7818
+muse#33703
+mxpx#36212
+mya#44853
+mystikal#2741
+nazareth#35709
+nelly#36283
+new found glory#39768
+new order#36877
+new radicals#6191
+next#48118
+stevie nicks#24555
+nine days#8898
+nine inch nails#14932
+nirvana#10027
+no doubt#14441
+nsync#24325
+oasis#12874
+offspring#39334
+mike oldfield#46789
+oleander#36397
+roy orbison#47888
+orgy#37381
+ozzy osbourne#10142
+o town#35073
+our lady peace#17714
+outkast#10086
+jennifer paige#35854
+robert palmer#44054
+papa roach#33743
+pennywise#18887
+pet shop boys#37994
+tom petty#31457
+phair liz#20938
+pink#9071
+pink floyd#36612
+placebo#41531
+poison#30171
+police#7041
+portishead#39303
+presidents of united states of america#8610
+elvis presley#3955
+pretenders#19663
+prince#24833
+procol harum#28579
+prodigy#32500
+propellerheads#16516
+queen#31793
+queensryche#28983
+radiohead#31638
+gerry rafferty#17856
+rage against machine#30545
+rammstein#42779
+rancid#26878
+rednex#35513
+rem#374
+reo speedwagon#12058
+lionel richie#16435
+leann rimes#46871
+r kelly#25411
+rolling stones#45746
+roxette#2127
+run dmc#2680
+sade#35829
+santana#7765
+savage garden#36146
+s club 7#22943
+scorpions#8581
+seal#39122
+neil sedaka#518
+selena#45009
+semisonic#39526
+seven mary three#35738
+ron sexsmith#43926
+shaggy#34925
+simon and garfunkel#7430
+carly simon#3430
+simon paul#22878
+simple minds#11621
+jessica simpson#37773
+sinatra frank#13375
+sisqo#21129
+sixpence none richer#27499
+skid row#31405
+sly and the family stone#40302
+smashing pumpkins#31092
+smash mouth#34429
+sneaker pimps#41446
+soft cell#24166
+soul asylum#25576
+soundgarden#5735
+spandau ballet#7700
+britney spears#8717
+spice girls#11528
+spin doctors#1589
+spineshank#7314
+bruce springsteen#11804
+staind#33520
+steppenwolf#36672
+stereophonics#40899
+cat stevens#32070
+rod stewart#24791
+sting#23398
+stone temple pilots#9587
+stroke 9#46720
+styx#4029
+sublime#11390
+sugar#873
+sugar ray#41766
+donna summer#20237
+supertramp#23105
+survivor#41236
+keith sweat#20759
+matthew sweet#18377
+talking heads#19624
+tears for fears#1995
+temple of dog#38549
+tesla#40483
+texas#44458
+third eye blind#47152
+thompson twins#37278
+tlc#2145
+tonic#19439
+tool#26583
+toto#26715
+tricky#29593
+tina turner#30645
+shania twain#30843
+twista#9569
+bonnie tyler#28723
+u 2#1048
+ub40#41725
+ugly kid joe#19128
+uriah heep#24138
+usher#10765
+paul van dyk#13697
+van halen#11071
+vanilla ice#42930
+bobby vee#7345
+velvet underground#14511
+vengaboys#147
+vertical horizon#10127
+verve#7213
+violent femmes#47553
+war#4334
+weezer#29256
+westlife#21989
+wham#5992
+wheatus#36839
+whiskeytown#33589
+barry white#39011
+white zombie#12076
+brian wilson#46483
+wilson phillips#32215
+steve winwood#47297
+stevie wonder#24068
+gary wright#24556
+wu tang clan#11342
+xzibit#7963
+neil young#29530
+zz top#40363
