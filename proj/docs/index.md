@@ -1,4 +1,4 @@
-# System rekomendacji bazujący na Million Song Dataset
+# Krzysztof Słonka, Dominik Rusiecki - System rekomendacji bazujący na Million Song Dataset
 
 Zbiór danych Million Song Dataset to darmowy zbiór jednego miliona utworów muzyki
 współczesnej wraz z cechami i danymi metadanymi.
@@ -66,9 +66,51 @@ Jeśli jakaś piosenka znajdzie się na przewidzianej części oznacza to, że 
 Aby uzyskać prosty sposób wyszukiwania podobnych utworów, załadowaliśmy interesujące nas dane do grafowej bazy danych neo4j.
 Przetworzenie 280GB jest zadaniem które wymaga sporo czasu i zasobów obliczeniowych więc zdecydowaliśmy się na skorzystanie z zasobów klastra obliczeniowego zeus.
 Jednak po tygodniu wymieniania e-maili z https://helpdesk.plgrid.pl/#/ szybszą ścieżką okazało się przetworzenie danych na lokalnym komputerze.
+
+
+## Struktura bazy danych
+
+Baza składa się z wierzchołków z polami:
+- Artysta
+  - id (int)
+  - imdb (string) - identyfikator z musicbrainz.org
+  - id7digital (int) - identyfikator z 7digital.com albo -1
+  - name (string)
+- Tag
+  - id (int)
+  - tag (string)
+- Album
+  - id (int)
+  - name (string)
+- Piosenka
+  - id (int)
+  - title (string)
+  - danceability (float)
+  - duration (float) - seconds
+  - energy (float)
+  - loudness (float)
+- Rok
+  - id (int)
+  - year (int)
+
+Oraz z krawędzi:
+- HAS_ALBUM
+  - id (int)
+- RELEASED_ON
+  - id (int)
+- HAS_TAG
+  - id (int)
+  - freq (float)
+  - weight (float)
+- SIMILAR_TO
+  - id (int)
+  - weight
+
+Krawędzie są skierowane.
+
 Wynikiem końcowym jest baza danych o następującym schemacie:
 
-![schema](../../db-schema.png)
+![schema](db-schema.png)
 
 ## Algorytm rekomendacji
 
@@ -98,4 +140,8 @@ Wynik który otrzymaliśmy to: **0,12104283%**.
 Jest on trochę niższy od oczekiwanego, wynika to głównie z faktu iż rekomendowanie konkretnych piosenek jest bardzo trudne.
 Wpływ może mieć także występowanie literówek i brak ujednolicenia autorów w zbiorach (przykładowo jeśli dwóch artystów wykonywało jeden utwór może być on przedstawiony na dwa różne sposoby w zbiorach danych).
 
-Niemniej jednak, demo aplikacji webowej które przygotowaliśmy prezentuje conajmniej zadowalający poziom rekomendacji, wyświetlając piosenki które odpowiadały gustom deweloperów.
+Dodatkowo stworzyliśmy interface graficzny który na podstawie podanych piosenek pokazuje 10 rekomendowanych utworów.
+
+![schema](web-ui.png)
+
+Demo aplikacji web-owej prezentuje conajmniej zadowalający poziom rekomendacji, wyświetlając piosenki które odpowiadały gustom deweloperów.
