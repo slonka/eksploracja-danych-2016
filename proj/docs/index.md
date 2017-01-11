@@ -164,59 +164,59 @@ Liczba utworów wg roku
 
 Najczęstsze tytuły utworów
 
-Intro			1442
-Untitled		393
-Outro			326
-Interlude		280
-Home			227
-Silent Night	203
-Time			201
-Hold On			187
-Tonight			170
-Smile			167
+- Intro			1442
+- Untitled		393
+- Outro			326
+- Interlude		280
+- Home			227
+- Silent Night	203
+- Time			201
+- Hold On			187
+- Tonight			170
+- Smile			167
 
 Artyści z największą liczbą utworów
 
-Pennywise	313
-Tina Turner	277
-Bill & Gloria Gaither	264
-Simon Harris	220
-Bobby Darin	208
-Magnatune Compilation	197
-Blue Sky Boys	189
-Beastie Boys	185
-Melanie C	183
-John Mayall & The Bluesbreakers / Eric Clapton	181
+- Pennywise	313
+- Tina Turner	277
+- Bill & Gloria Gaither	264
+- Simon Harris	220
+- Bobby Darin	208
+- Magnatune Compilation	197
+- Blue Sky Boys	189
+- Beastie Boys	185
+- Melanie C	183
+- John Mayall & The Bluesbreakers / Eric Clapton	181
 
 Artyści z największą liczbą albumów
 
-Frankie Laine	94
-Big Bill Broonzy	93
-Tina Turner	93
-Elvis Presley & Carrie Underwood	87
-Ustad Nusrat Fateh Ali Khan	87
-Duke Ellington & His Famous Orchestra	82
-Dean Martin	81
-Sonny Rollins with the Modern Jazz Quartet	81
-Dave Brubeck	81
-Jean Lumière	80
+- Frankie Laine	94
+- Big Bill Broonzy	93
+- Tina Turner	93
+- Elvis Presley & Carrie Underwood	87
+- Ustad Nusrat Fateh Ali Khan	87
+- Duke Ellington & His Famous Orchestra	82
+- Dean Martin	81
+- Sonny Rollins with the Modern Jazz Quartet	81
+- Dave Brubeck	81
+- Jean Lumière	80
 
 Najgłośniejsi artyści
 
-Kylie Minoise	29.540000200271606
-Massimo	13.567999839782715
-Autotrash	11.74399995803833
-Venetian Snares + Speedranch	10.110000103712082
-Negative Network	8.440999984741211
-Dj Balli	7.043000221252441
-Prurient	6.3440001010894775
-Boy + Girl	6.141999959945679
-The Mike Korzak Band	5.664000034332275
-Wavves	5.648000061511993
+- Kylie Minoise	29.540000200271606
+- Massimo	13.567999839782715
+- Autotrash	11.74399995803833
+- Venetian Snares + Speedranch	10.110000103712082
+- Negative Network	8.440999984741211
+- Dj Balli	7.043000221252441
+- Prurient	6.3440001010894775
+- Boy + Girl	6.141999959945679
+- The Mike Korzak Band	5.664000034332275
+- Wavves	5.648000061511993
 
 Statystyki długości
 
-Średnia 249.1466157509036
-Minimalna	0.31302
-Maksymalna	3034.9058
-Odchylenie standardowe	125.30470841274028
+- Średnia 249.1466157509036
+- Minimalna	0.31302
+- Maksymalna	3034.9058
+- Odchylenie standardowe	125.30470841274028
