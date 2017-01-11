@@ -145,3 +145,15 @@ Dodatkowo stworzyliśmy interface graficzny który na podstawie podanych piosene
 ![schema](web-ui.png)
 
 Demo aplikacji web-owej prezentuje conajmniej zadowalający poziom rekomendacji, wyświetlając piosenki które odpowiadały gustom deweloperów.
+
+### Dodatkowe ciekawe charakterystyki
+
+Piosenka która jest podobna do największej ilości piosenek:
+
+```
+MATCH (n1)-[r1:PERFORMS]->(n)-[r:SIMILAR_TO]->(x) RETURN n, n1, COUNT(r) ORDER BY COUNT(r) DESC LIMIT 10
+```
+
+1. Frankie Avalon - Venus - 658
+1. The platters - The Great Pretender - 654
+1. Bobby Freeman - Do you wanna dance? - 644
