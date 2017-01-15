@@ -174,5 +174,7 @@ if __name__ == "__main__":
 
 	playlists = get_playlists(song_dict, artist_dict, common_artists)
 
-	for playlist in playlists[1200:1210]:
+	while True:
+		no = int(raw_input("Please enter playlist number from 1 to 29164, Ctrl-C to exit"))
+		playlist = playlists[no]
 		print predict_playlist(playlist, int(len(playlist)/2), True)
